@@ -1,0 +1,100 @@
+body {
+            display: block;
+            background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/067/739/original/Frame_1.jpg?1676427954);
+            margin: 0;
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        h2 {
+            color: #00b7ad;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        h3 {
+            display: block;
+            margin: 25px;
+            text-align: center;
+            font-weight: normal;
+            font-size: 18px;
+        }
+        p {
+            margin-bottom: 30px;
+            text-align: justify;
+            line-height: 1.4em;
+        }
+        span {
+            color: #00b7ad;
+            font-weight: 500;
+        }
+        span:hover {
+            color: #019790;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        ul {
+            margin: 0;
+            padding-left: 12px;
+            text-align: justify;
+            list-style: square;
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 30px 60px;
+            background: #fffffff1;
+            box-shadow: 0px 0px 20px #000000;
+        }
+        .title {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+        }
+        .centerImage {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .button {
+            display: inline-block;
+            background: linear-gradient(#00b7ad, #019790);
+            border: 0px;
+            border-radius: 30px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+            color: #ffffff;
+            font-size: 18px;
+            font-family: "Times New Roman", Times, serif;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            padding: 18px 25px;
+            transition: all 200ms ease-in-out;
+        }
+        .button:hover {
+            background: linear-gradient(#019790, #00b7ad);
+            cursor: pointer;
+        }
+        .footer {
+            text-align: center;
+        }
+        .signature {
+            color: #5c5c5c;
+            font-size: 14px;
+            font-family: monospace;
+            text-align: center;
+        }
